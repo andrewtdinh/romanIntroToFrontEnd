@@ -4,11 +4,13 @@
   "description": "Roman's Intro to Modern Front-End",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/gulp server"
   },
   "author": "Andrew Dinh",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-server-livereload": "^1.7.0"
   }
 }
